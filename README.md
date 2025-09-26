@@ -256,6 +256,19 @@ Preparar → Plantar → Crescer → Defender/Eventos → Colher → Gerir/Expan
 - UIManager.cs: Controla menus, inventário e feedbacks de interface.
 
 ---
+
+### 4.10 Customização do Protagonista
+
+- *Opções iniciais:* Escolha de gênero, tom de pele, corte/cor de cabelo, cor da roupa.
+- *Sistema modular:* Sprites divididos em corpo, cabelo, roupa, acessórios.
+- *Fácil expansão:* Novos visuais podem ser adicionados como recompensas ou eventos no futuro.
+- *Sem impacto em gameplay:* Apenas estético (no início), focando na identificação do jogador.
+
+#### Sugestão técnica
+- Use um sistema de slots de sprites (ex: playerBody.png, playerHair1.png, playerShirt2.png).
+- Scripts para trocar sprites via seleção simples no menu inicial ou em um guarda-roupa dentro do jogo.
+---
+
 ## 5. Dicas para Organização de Projeto
 
 - *Estrutura de pastas sugerida:*
